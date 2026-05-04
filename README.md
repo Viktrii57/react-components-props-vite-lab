@@ -92,3 +92,100 @@ If the article takes 30 minutes or longer to read:
 
 There aren't tests for this feature, so you'll have to rely on running the code
 in the browser to see if your implementation works!
+
+
+
+
+# Personal Blog (React + Vite)
+
+## 📌 Project Description
+
+This project is a static personal blog website built using React and Vite. It demonstrates component-based architecture, props usage, and dynamic rendering of blog posts.
+
+
+## 🚀 How to Run the Project
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the development server:
+
+```bash
+npm run dev
+```
+
+3. Open the app in your browser:
+
+```text
+http://localhost:5173
+```
+
+### Run tests
+
+```bash
+npm test
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+
+
+
+## 🧱 Component Structure
+
+App
+├── Header
+├── About
+└── ArticleList
+  └── Article
+
+
+
+## 🔗 Data Flow
+
+* App holds blog data
+* Data is passed to ArticleList via props
+* ArticleList maps data to Article components
+
+
+
+## ✨ Features
+
+* Component-based design
+* Props for dynamic data
+* Clean and modern UI (dark mode)
+* Reusable components
+
+
+
+## 📸 Screenshots
+
+Below is a screenshot of the blog site:
+
+![Blog Site Screenshot](./images/demo.png)
+
+
+
+## 🛠️ Technologies Used
+
+* React
+* Vite
+* CSS
+
+
+
+## 📚 Learning Outcomes
+
+* Understanding component hierarchy
+* Passing props between components
+* Rendering lists dynamically in React
+* Structuring a frontend project
+
+
